@@ -12,11 +12,11 @@
 
 ${errorMessage}
 
-<form action="/validate">
+<form action="validate">
 
 
 User ID :<input type="text" name="userID">
-Password:<input type="text" name="password">
+Password:<input type="password" name="password">
 
 <input type="submit" value="Login">
 </form>

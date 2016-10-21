@@ -20,7 +20,7 @@
 	<hr>
 	
 	
-	<c:if test="${userClickedLogin} ">
+	<c:if test="${userClickedLogin}">
 
 		<jsp:include page="/WEB-INF/views/login.jsp"></jsp:include>
 	</c:if>
@@ -29,6 +29,8 @@
 		<jsp:include page="/WEB-INF/views/register.jsp"></jsp:include>
 	</c:if>
 	
+	<c:out value="${successMessage}"/>
+	<c:out value="${errorMessage}"/>
 	
 </body>
 </html>

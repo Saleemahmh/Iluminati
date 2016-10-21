@@ -39,7 +39,7 @@ public class HomeController {
 		
 		//Boolean userClickedLogin=true
 		model.addAttribute("userClickedLogin","true");
-		return "login";
+		return "index";
 	}
 
 	@RequestMapping("/Register")
@@ -47,6 +47,6 @@ public class HomeController {
 	{   
 		//Boolean userClickedLogin=true
 		model.addAttribute("userClickedRegister","true");
-		return "register";
+		return "index";
 	}
 }
