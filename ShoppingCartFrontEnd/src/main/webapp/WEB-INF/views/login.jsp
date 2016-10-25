@@ -12,7 +12,7 @@
 
 ${errorMessage}
 
-<form action="validate">
+<form action="validate" method="post">
 
 
 User ID :<input type="text" name="userID">
