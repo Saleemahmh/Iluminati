@@ -23,7 +23,7 @@
       <li class="active"><a href="#">Home</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="/login.jsp"><span class="glyphicon glyphicon-user"></span>Sign Up </a></li>
+      <li><a href="Register"><span class="glyphicon glyphicon-user"></span>Sign Up </a></li>
      </ul>
      <ul class="nav navbar-nav navbar-right">
      <c:if test="${not empty successMessage}">

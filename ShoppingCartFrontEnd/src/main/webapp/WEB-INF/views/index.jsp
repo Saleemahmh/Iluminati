@@ -20,8 +20,7 @@
 
 	<hr>
 	${successMessage}
-	${errorMessage}
-	
+	${registerMessage}
 	<c:if test="${userClickedLogin}">
 
 		<jsp:include page="/WEB-INF/views/login.jsp"></jsp:include>

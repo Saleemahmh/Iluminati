@@ -16,6 +16,12 @@ public class HomeController {
 	{
 		return "index";
 	}
+	@RequestMapping("/registerHere")
+	public String registerHere(Model m)
+	{
+		m.addAttribute("registerMessage","U r sucessfuly registered");
+		return "index";
+	}
 	
 	@RequestMapping("/validate")
 	public String validate(@RequestParam(name="userID") String id,
@@ -46,7 +52,7 @@ public class HomeController {
 		mv.addObject("userClickedLogin","true");
 		return mv;
 	}
-
+	
 	@RequestMapping("/Register")
 	public String register(Model model) 
 	{   
