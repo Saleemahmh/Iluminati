@@ -20,7 +20,7 @@ public class HomeController {
 	public String registerHere(Model m)
 	{
 		m.addAttribute("registerMessage","U r sucessfuly registered");
-		return "index";
+		return "login";
 	}
 	
 	@RequestMapping("/validate")

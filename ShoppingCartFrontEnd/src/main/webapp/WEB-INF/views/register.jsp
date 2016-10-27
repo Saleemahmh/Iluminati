@@ -50,7 +50,7 @@
 	<td>:</td>
 	<td><textarea rows="10" cols="30"></textarea></td></tr>
 </table>
-<input type=button value=Submit onClick(registerHere)>
+<input type=button value=Submit >
 <br><br>
 
 </form:form>
