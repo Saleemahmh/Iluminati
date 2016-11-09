@@ -13,7 +13,7 @@ public interface CategoryDAO {
 		public Category get(String id);
 			
 
-		public Category delete(String id);
+		public boolean delete(Category category);
 
 		public List<Category> list();
 		

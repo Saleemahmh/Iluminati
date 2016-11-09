@@ -6,17 +6,14 @@ import com.niit.shoppingcartbackend.model.Supplier;
 
 public interface SupplierDAO {
 	//CRUD Operations
-
-			public boolean save(Supplier supplier);
-
-			public boolean update(Supplier supplier);
-
-			public Supplier get(String id);
-				
-
-			public Supplier delete(String id);
-
-			public List<Supplier> list();
 			
-
+	public Supplier get(String id);
+	
+	public List<Supplier> list();
+	
+	public boolean save(Supplier supplier);
+	
+	public boolean update(Supplier supplier);
+	
+	public boolean delete(Supplier supplier);
 }
