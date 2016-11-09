@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Bjeweled-The ultimate luxury in style</title>
 </head>
 <body>
 
@@ -17,10 +17,13 @@
 
 <table>
 <tr>
-	<td >Enter user ID</td>
+	<td>Enter User ID</td>
 	<td>:</td>
-	<td><input type="text "name="id"></td></tr>
-
+	<td><input type="text" name="new1" placeholder="Phone number or Name"></td></tr>
+<tr>
+	<td>Enter Email ID</td>
+	<td>:</td>
+	<td><input type="text" name="emailid" placeholder="example@mail.com"></td></tr>
 <tr>
 	<td>Enter Password</td>
 	<td>:</td>
@@ -32,26 +35,26 @@
 <tr>
 	<td>First name</td>
 	<td>:</td>
-	<td><input type="text" name="fname"></td></tr>
+	<td><input type="text" name="fname" placeholder="First Name"></td></tr>
 <tr>
 	<td>Last name</td>
 	<td>:</td>
-	<td><input type="text" name="lname"></td></tr>
+	<td><input type="text" name="lname" placeholder="Last Name"></td></tr>
 <tr>
 	<td>Date of Birth</td>
 	<td>:</td>
-	<td><input type="text" name="dob"></td></tr>
+	<td><input type="text" name="dob" placeholder="MM/DD/YYYY"></td></tr>
 <tr>
 	<td>Phone number</td>
 	<td>:</td>
-	<td><input type="text" name="ph"></td></tr>
+	<td><input type="text" name="ph" placeholder="9999999999"></td></tr>
 <tr>
 	<td>Address</td>
 	<td>:</td>
 	<td><textarea rows="10" cols="30"></textarea></td></tr>
 </table>
 <input type=button value=Submit >
-<br><br>
+<br><br></center>
 
 </form:form>
 </body>

@@ -1,13 +1,22 @@
 package com.niit.shoppingcartbackend.model;
 
-import org.springframework.stereotype.Component;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
+import org.springframework.stereotype.Component;
+@Entity
+@Table
 @Component
 public class Product {
-
+	@Id
 	private String id;
+	@Column
 	private String name;
+	@Column
 	private double price;
+	@Column
 	private String description;
 	public String getId() {
 		return id;

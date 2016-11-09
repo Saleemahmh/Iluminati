@@ -1,7 +1,5 @@
 package com.niit.shoppincartbackend;
 
-import static org.junit.Assert.*;
-
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +12,7 @@ import junit.framework.Assert;
 
 public class SupplierTestCase {
 
-	///ApplicationContext,   SupplierDAO and Supploer instance
+	///ApplicationContext,   SupplierDAO and Supplier instance
 	
 	
 	@Autowired
@@ -31,7 +29,7 @@ public class SupplierTestCase {
 	public void init(){
 		
 		context= new ApplicationContextConfig();
-		context.scan("com.niit.shoppingcart");
+		context.scan("com.niit.shoppingcartbackend");
 		context.refresh();
 		
 		supplierDAO=(SupplierDAO) context.getBean("SupplierDAO");
