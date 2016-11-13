@@ -26,32 +26,55 @@ public class HomeController {
 		return "index";
 	}
 	
-	@RequestMapping("/validate")
+	//@RequestMapping("/validate")
 	 
-	public String validate(@RequestParam(name="userID")String id,@RequestParam("password") String pwd,Model model, HttpSession session)
-	{
+	//public String validate(@RequestParam(name="userID")String id,@RequestParam("password") String pwd,Model model, HttpSession session)
+	//{
 		//Validate-hit the database to validate
 		// check user id and password is NIIT
 		
-		if(id.equals("niit")&& pwd.equals("niit"))
-		{
+		//if(id.equals("niit")&& pwd.equals("niit"))
+		//{
 			//model.addAttribute("SuccessMessage","You successfully logged in");
-			session.setAttribute("SuccessMessage","You successfully logged in");
-			return "index";
+			//session.setAttribute("SuccessMessage","You successfully logged in");
+			//return "index";
 			
-		}else
-		{
-			model.addAttribute("ErrorMessage","Invalid,Try again");
-			return "index";
-		}
+		//}else
+		//{
+			//model.addAttribute("ErrorMessage","Invalid,Try again");
+			//return "index";
+		//}
 		//SPA
 		
-	}
+@RequestMapping("/validate")
+	
+	public String validate(@RequestParam(name="userID") String id, @RequestParam(name="password") String pwd,Model model)
+			{
+			//validate - hit the database to validate
+			// NIIT
+			
+			if (id.equals("sal@gmail.com")  && pwd.equals("niit"))
+			{
+				 model.addAttribute("SucessMessage", "You sucessfully logged in");
+				 return "index";
+			}
+			else if (id.equals("admin")  && pwd.equals("admin"))
+			{
+				model.addAttribute("successadmin", "login as admin ");
+				return "index";
+			}
+			else
+			{
+				model.addAttribute("ErrorMessage", "Invalid Credentials ");
+				return "index";
+			}
+			}
+
 	@RequestMapping("/login")
 	public String login(Model model)
 	{
 		model.addAttribute("userClickedLogin","true");
-		return "index";
+		return "login";
 	}
 	
 	
@@ -80,6 +103,12 @@ public class HomeController {
 	public String contactus(Model model)
 	{
 		model.addAttribute("userClickedContactus","true");
+		return "index";
+	}
+	@RequestMapping("/Aboutus")
+	public String aboutus(Model model)
+	{
+		model.addAttribute("userClickedAboutus","true");
 		return "index";
 	}
 

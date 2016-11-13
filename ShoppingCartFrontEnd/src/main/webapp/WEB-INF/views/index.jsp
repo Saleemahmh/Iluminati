@@ -32,6 +32,10 @@ body {
 
 		<jsp:include page="/WEB-INF/views/contactus.jsp"></jsp:include>
 	</c:if>
+	<c:if test="${userClickedAboutus}">
+
+		<jsp:include page="/WEB-INF/views/aboutus.jsp"></jsp:include>
+	</c:if>
 
 	<jsp:include page="/WEB-INF/views/footer.jsp"></jsp:include>
 </body>

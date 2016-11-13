@@ -5,9 +5,24 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <title>Bjeweled-The ultimate luxury in style</title>
 </head>
+<style>
+body{
+background-image:url("http://hitwallpaper.com/wp-content/uploads/2013/08/wallpaper-download-free-ribbon-pink-jewelry-flower-22550.jpg");
+}
+</style>
 <body>
+
 
 
 	${errorMessage}
@@ -25,13 +40,13 @@
 			</h1>
 			
 				<center>
-					<i><b>Enter ID : <input type="text" name="id" placeholder="example@mail.com"><br>
+					<i><b>Enter ID : <input type="text" name="userID" placeholder="example@mail.com" required title="Please enter field"><br>
 						<br>
-						<br> Password : <input type="password" name="pwd"><br>
+						<br> Password : <input type="password" name="password" title="Please enter field" minlength="6" maxlength="10"><br>
 						<br>
 						<br> <input type="submit" value="Login"><br></b></i><br>
 					or <br> <a
-						href="file:///C:/Users/MashA-AllaH/Documents/registeration without valid.html">Sign
+						href="register.jsp">Sign
 						Up</a><br>
 				</center>
 

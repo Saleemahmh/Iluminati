@@ -38,25 +38,25 @@ background-color:#008080;
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <center><img src="C:\Users\MashA-AllaH\Documents\image1carousel.jpg"  width="1160" height="445"></center>
+        <center><img src="http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/10/Diamond-gold-and-platinum-bangle-jewellery.jpg"  width="1160" height="445"></center>
       </div>
 
       <div class="item">
-        <center><img src="C:\Users\MashA-AllaH\Documents\image7carousel.jpg"  width="1160" height="445"></center>
+        <center><img src="http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/11/Jewelry-HD-Wallpapers-Desktop-Widescreen.jpg"  width="1160" height="445"></center>
       </div>
     
       <div class="item">
-        <center><img src="C:\Users\MashA-AllaH\Documents\image6carousel.jpg"  width="1160" height="445"></center>
+        <center><img src="http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/08/beautiful-girl-jewelry-widescreen-hd-wallpapers.jpg"  width="1160" height="445"></center>
       </div>
 
       <div class="item">
-        <center><img src="C:\Users\MashA-AllaH\Documents\image2carousel.jpg"  width="1160" height="445"></center>
+        <center><img src="http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/11/jewelry-box-necklace-pendant.jpg"  width="1160" height="445"></center>
       </div>
 	<div class="item">
-        <center><img src="C:\Users\MashA-AllaH\Documents\image4carousel.jpg"  width="1160" height="445"></center>
+        <center><img src="http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/08/woman-earrings-jewelry-makeup-wallpapers-1680x1050.jpg"  width="1160" height="445"></center>
       </div>
 	<div class="item">
-        <center><img src="C:\Users\MashA-AllaH\Documents\image3carousel.jpg"  width="1160" height="445"></center>
+        <center><img src="F:\Niit software and materials\workspace3\ShoppingCartFrontEnd\src\main\resources\images\image1carousel.jpg"  width="1160" height="445"></center>
       </div>
     </div>
 

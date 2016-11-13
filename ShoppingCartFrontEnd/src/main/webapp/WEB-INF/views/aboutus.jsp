@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -7,7 +8,7 @@
 <title>Bjeweled-The ultimate luxury in style</title>
 </head>
 <body>
-
+<jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
 <p>Bjeweled is an online jewellery destination that showcases
 high quality fine jewellery with strikingly exquisite designs.
 
@@ -19,6 +20,6 @@ We house unique designs for you to choose from.
 to customize the product's gold purity and colour or diamond clarity to suit your needs.
 With cutting edge innovation and latest technology usage, we make sure the brilliance is 
 well reflected in all our jewellery.</p>
-
+<jsp:include page="/WEB-INF/views/footer.jsp"></jsp:include>
 </body>
 </html>
