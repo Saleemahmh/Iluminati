@@ -116,9 +116,10 @@ body {
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
-						<li><a href="index.jsp">Home</a></li>
-						<li><a href="aboutus.jsp">About Us</a></li>
-						<li><a href="contactus.jsp">Contact Us</a></li>
+						<li><a href="index">Home</a></li>
+						<li><a href="aboutus">About Us</a></li>
+						<li><a href="contactus">Contact Us</a></li>
+						
 					</ul>
 
 					</ul>
