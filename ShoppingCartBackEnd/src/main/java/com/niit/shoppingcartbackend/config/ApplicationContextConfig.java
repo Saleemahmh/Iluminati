@@ -32,7 +32,7 @@ public class ApplicationContextConfig {
 		dataSource.setDriverClassName("org.h2.Driver");
 
 		dataSource.setUsername("sa");
-		dataSource.setPassword("sa");
+		dataSource.setPassword("");
 		return dataSource;
 	}
 
