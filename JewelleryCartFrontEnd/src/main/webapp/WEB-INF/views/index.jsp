@@ -25,7 +25,8 @@ body {
 	<jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
 	<jsp:include page="/WEB-INF/views/carousel.jsp"></jsp:include>
 
-	${SuccessMessage} ${registerMessage}
+	${SuccessMessage}
+	${ErrorMessage}
 	<c:if test="${userClickedLogin}">
 
 		<jsp:include page="/WEB-INF/views/login.jsp"></jsp:include>

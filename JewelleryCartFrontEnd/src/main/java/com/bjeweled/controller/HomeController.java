@@ -1,4 +1,6 @@
 package com.bjeweled.controller;
+import javax.servlet.http.HttpSession;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,24 +27,19 @@ public class HomeController {
 	
 @RequestMapping("/validate")
 	
-	public String validate(@RequestParam(name="userID") String id, @RequestParam(name="password") String pwd,Model model)
+	public String validate(@RequestParam(name="userID") String id, @RequestParam(name="password") String pwd,Model model,HttpSession session)
 			{
 			//validate - hit the database to validate
 			// NIIT
 			
-			if (id.equals("sal@gmail.com")  && pwd.equals("niit"))
+			if (id.equals("sal@gmail.com")  && pwd.equals("niitdt"))
 			{
-				 model.addAttribute("SucessMessage", "You sucessfully logged in");
+				 session.setAttribute("SuccessMessage", "You sucessfully logged in");
 				 return "index";
-			}
-			else if (id.equals("admin")  && pwd.equals("admin"))
-			{
-				model.addAttribute("successadmin", "login as admin ");
-				return "index";
 			}
 			else
 			{
-				model.addAttribute("ErrorMessage", "Invalid Credentials ");
+				session.setAttribute("ErrorMessage", "Invalid Credentials ");
 				return "index";
 			}
 			}
@@ -171,4 +168,11 @@ public class HomeController {
 		model.addAttribute("userClickeddearring","true");
 		return "d-earring";
 	}
+	@RequestMapping("/logout")
+	public String logout(HttpSession session)
+	{
+		session.invalidate();
+		return "index";
+	}
+
 }

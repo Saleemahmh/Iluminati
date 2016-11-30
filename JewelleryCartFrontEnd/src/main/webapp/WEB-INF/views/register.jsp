@@ -28,10 +28,14 @@
 </head>
 <style>
 body {
-	
 	background:
-		url('http://blog.transfer-iphone-recovery.com/images/photo-with-blur-background.jpg')no-repeat;
-	}
+		url('https://static.videezy.com/system/resources/thumbnails/000/005/027/original/diamond-ring-4k-wedding-background.jpg')
+		no-repeat center center fixed;
+}
+
+* {
+	color: white;
+}
 
 .form-signin {
 	max-width: 280px;
@@ -56,121 +60,179 @@ body {
 	opacity: 0.8;
 	/*margin-top:30px;*/
 }
-
-.form-signup input[type="text"], .form-signup input[type="password"] {
-	border: 1px solid rgb(50, 118, 177);
-}
-
 </style>
 <body>
-<jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
- <form  class="form-signin">
-<div class="container">
-    <div class="row">
-        <div class="col-md-4 col-md-offset-4">
-            <div class="well well-default">
-                <div class="well-body">
-                    <h3 class="text-center">
-                        SIGN UP</h3>
-                    
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span>
-                            </span>
-                            <input type="text" class="form-control" name="fname" placeholder="First Name" required />
-                        </div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-                            <input type="text" class="form-control" name="lname" placeholder="Last Name" />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-                            <input type="email" class="form-control" name="email" placeholder="Email" required />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-                            <input type="text" class="form-control" name="userID" placeholder="Username" required/>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-                            <input type="password" name="new1" pattern=".{6,}" title="Six or more characters" class="form-control" placeholder="Password" required />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-                            <input type="password" name="new2" pattern=".{6,}" title="Six or more characters" class="form-control" placeholder="Confirm Password" required />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span class="input-group-addon"><span class="glyphicon glyphicon-home"></span></span>
-                            <input type="text" name="house" class="form-control" placeholder="House no:" />
-                        </div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span class="input-group-addon"><span class="glyphicon glyphicon-road"></span></span>
-                            <input type="text" name=street class="form-control" placeholder="Street" />
-                        </div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span class="input-group-addon"><span class="glyphicon glyphicon-map-marker"></span></span>
-                            <input type="text" name="city" class="form-control" placeholder="City" />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span></span>
-                            <input type="text" name="phone" class="form-control" placeholder="Phone" />
-                        </div>
-                    </div>
-                    
-                    
-                                        <div class="form-group">
-						<div class="input-group">
-						<span class="input-group-addon"><span class="glyphicon glyphicon-globe"></span></span>
-					<select name="country" id="country" class="form-control">
-						<option>Bangalore</option>
-						<option>Delhi</option>
-						<option>Mumbai</option>
-						<option>Kolkata</option>
-						<option>Kerala</option>
-						<option>Tamil Nadu</option>
-					</select>
-				</div></div>
-				
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-                            <input type="text" class="form-control" placeholder="Postal Code" />
-                        </div>
-                    </div>
-                    
-                    
-                    
-                    
-                </div>
-                <a href="#" class="btn btn-sm btn-primary btn-block" role="button">
-                    SUBMIT</a>
-            </div>
-        </div>
-    </div>
-</div>
-</form>
+	<jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
+	<form class="form-signin">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-4">
+					<div class="well well-default">
+						<div class="well-body">
+							<h3 class="text-center" style="color: black;">SIGN UP</h3>
+
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><span
+										class="glyphicon glyphicon-user" style="color: black;"></span>
+									</span> <input type="text" class="form-control" name="fname" required
+										placeholder="First Name" />
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><span
+										class="glyphicon glyphicon-user" style="color: black;"></span></span>
+									<input type="text" class="form-control" name="lname"
+										placeholder="Last Name" />
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><span
+										class="glyphicon glyphicon-envelope" style="color: black;"></span></span>
+									<input class="form-control" required type="email"
+										placeholder="Email" name="email" id="email"
+										onchange="email_validate(this.value);" />
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><span
+										class="glyphicon glyphicon-pencil" style="color: black;"></span></span>
+									<input type="text" class="form-control" name="userID"
+										placeholder="Username" required />
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+
+									<span class="input-group-addon"><span
+										class="glyphicon glyphicon-lock" style="color: black;"></span></span>
+									<input required name="password" type="password"
+										class="form-control inputpass" placeholder="Enter Password" minlength="4" maxlength="16"
+										id="pass1" />
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><span
+										class="glyphicon glyphicon-lock" style="color: black;"></span></span>
+									<input required name="password" type="password"
+										class="form-control inputpass" minlength="4" maxlength="16"
+										placeholder="Enter again to validate" id="pass2"
+										onkeyup="checkPass(); return false;" />
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><span
+										class="glyphicon glyphicon-home" style="color: black;"></span></span>
+									<input type="text" name="house" class="form-control"
+										placeholder="House no:" />
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><span
+										class="glyphicon glyphicon-road" style="color: black;"></span></span>
+									<input type="text" name=street class="form-control"
+										placeholder="Street" />
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><span
+										class="glyphicon glyphicon-map-marker" style="color: black;"></span></span>
+									<input type="text" name="city" class="form-control"
+										placeholder="City" />
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><span
+										class="glyphicon glyphicon-phone" style="color: black;"></span></span>
+									<input type="text" name="phone" class="form-control"
+										placeholder="Phone" />
+								</div>
+							</div>
+
+
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><span
+										class="glyphicon glyphicon-globe" style="color: black;"></span></span>
+									<select name="country" id="country" class="form-control">
+										<option>Bangalore</option>
+										<option>Delhi</option>
+										<option>Mumbai</option>
+										<option>Kolkata</option>
+										<option>Kerala</option>
+										<option>Tamil Nadu</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><span
+										class="glyphicon glyphicon-envelope" style="color: black;"></span></span>
+									<input type="text" class="form-control"
+										placeholder="Postal Code" />
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<input class="btn btn-success" type="submit" name="submit_reg"
+								value="Register">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+	<script>
+		function checkPass() {
+			//Store the password field objects into variables ...
+			var pass1 = document.getElementById('pass1');
+			var pass2 = document.getElementById('pass2');
+			//Store the Confimation Message Object ...
+			var message = document.getElementById('confirmMessage');
+			//Set the colors we will be using ...
+			var goodColor = "#66cc66";
+			var badColor = "#ff6666";
+			//Compare the values in the password field 
+			//and the confirmation field
+			if (pass1.value == pass2.value) {
+				//The passwords match. 
+				//Set the color to the good color and inform
+				//the user that they have entered the correct password 
+				pass2.style.backgroundColor = goodColor;
+				message.style.color = goodColor;
+				message.innerHTML = "Passwords Match"
+			} else {
+				//The passwords do not match.
+				//Set the color to the bad color and
+				//notify the user.
+				pass2.style.backgroundColor = badColor;
+				message.style.color = badColor;
+				message.innerHTML = "Passwords Do Not Match!"
+			}
+		}
+		function email_validate(email) {
+			var regMail = /^([_a-zA-Z0-9-]+)(\.[_a-zA-Z0-9-]+)*@([a-zA-Z0-9-]+\.)+([a-zA-Z]{2,3})$/;
+
+			if (regMail.test(email) == false) {
+				document.getElementById("status").innerHTML = "<span class='warning'>Email address is not valid yet.</span>";
+			} else {
+				document.getElementById("status").innerHTML = "<span class='valid'>Thanks, you have entered a valid Email address!</span>";
+			}
+		}
+	</script>
 
 	<jsp:include page="/WEB-INF/views/footer.jsp"></jsp:include>
-	</body>
+</body>
 </html>

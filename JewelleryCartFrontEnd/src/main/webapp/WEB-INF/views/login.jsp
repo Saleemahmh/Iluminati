@@ -23,18 +23,18 @@ opacity: 0.9;
 margin-top:30px;
 }
 .form-group.last { margin-bottom:0px; }
-*{color:purple;}
+                                                                                                                                 }
 </style>
 <body>
 <jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
 
-	${errorMessage}
+	
 
-
+<form action="validate" method="post">
 	<div class="container">
     <div class="row">
         <div class="col-md-4 col-md-offset-7">
-            <div class="panel panel-default">
+                    <div class="panel panel-default">
                 <div class="panel-heading">
                     <span class="glyphicon glyphicon-lock"></span> Login</div>
                 <div class="panel-body">
@@ -56,8 +56,8 @@ margin-top:30px;
                     
                     <div class="form-group last">
                         <div class="col-sm-offset-3 col-sm-9">
-                            <a href="index" button type="submit" class="btn btn-success btn-sm">
-                                Sign in</a></button>
+                            <input type="submit" class="btn btn-success btn-sm" value="Sign in">
+                                
                                  <button type="reset" class="btn btn-default btn-sm">
                                 Reset</button>
                         </div>
@@ -67,10 +67,11 @@ margin-top:30px;
                 <div class="panel-footer">
                     Not Registred? <a href="registeration">Register here</a></div>
             </div>
+            
         </div>
     </div>
 </div>
-
+</form>
 			<jsp:include page="/WEB-INF/views/footer.jsp"></jsp:include>
 		</body>
 </html>

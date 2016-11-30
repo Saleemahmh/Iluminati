@@ -18,47 +18,60 @@
 </head>
 <style>
 body {
+	background:
+		url("http://www.walldevil.com/wallpapers/a53/background-texture-spirals-spins-circles-widescreen-image.jpg")
+		no-repeat center center fixed;
+	font-family: 'Didot-Italic';
+	font-style: italic;
 	
-		font-family: 'Didot-Italic';
-	font-style: italic;}
-  h4{
-    	font-weight: 600;
-    	font-family: 'Didot-Italic';
+}
+
+h4 {
+	font-weight: 600;
+	font-family: 'Didot-Italic';
+	color:purple;
+}
+
+p {
+	font-size: 12px;
+	margin-top: 5px;
+	font-family: 'Didot-Italic';
+	color:purple;
+}
+
+.price {
+	font-size: 30px;
+	font-family: 'Didot-Italic';
+	margin: 0 auto;
+	color: #333;
+}
+
+.right {
+	float: right;
+	border-bottom: 2px solid #4B8E4B;
+}
+
+.thumbnail {
+	opacity: 0.70;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.thumbnail:hover {
+	opacity: 1.00;
+	box-shadow: 0px 0px 10px #4bc6ff;
+}
+
+.line {
+	margin-bottom: 5px;
+}
+
+@media screen and (max-width: 770px) {
+	.right {
+		float: left;
+		width: 100%;
 	}
-	p{
-		font-size: 12px;
-		margin-top: 5px;
-		font-family: 'Didot-Italic';
-	}
-	.price{
-		font-size: 30px;
-		font-family: 'Didot-Italic';
-    	margin: 0 auto;
-    	color: #333;
-	}
-	.right{
-		float:right;
-		border-bottom: 2px solid #4B8E4B;
-	}
-	.thumbnail{
-		opacity:0.70;
-		-webkit-transition: all 0.5s; 
-		transition: all 0.5s;
-	}
-	.thumbnail:hover{
-		opacity:1.00;
-		box-shadow: 0px 0px 10px #4bc6ff;
-	}
-	.line{
-		margin-bottom: 5px;
-	}
-	@media screen and (max-width: 770px) {
-		.right{
-			float:left;
-			width: 100%;
-		}
-		
-	}
+}
 </style>
 <body>
 

@@ -20,38 +20,36 @@
 	border: transparent !important;
 	font-family: 'Didot-Italic';
 	font-style: italic;
+	font-size: 20px;
 }
 
 .navbar {
 	background: transparent !important;
-	border: transparent !important;
+	/*border: transparent !important;*/
 	font-family: 'Didot-Italic';
 	font-style: italic;
 	color: #B22222;
 	font-size: 18px;
 }
-
 </style>
 <body>
 	<div class="container">
 		<div class="panel panel-default">
-			<div class="panel-body">
-				BJEWELED</a>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="registeration"><span
-							class="glyphicon glyphicon-user" align="right"></span>Sign Up </a></li>
-				</ul>
+			<div class="panel-body"><span
+							class="glyphicon glyphicon-heart"></span>
+							BJEWELED<span
+							class="glyphicon glyphicon-heart"></span>
+				
 				<ul class="nav navbar-nav navbar-right">
 					<c:if test="${not empty SuccessMessage}">
-						<li><a href="#"><span
-								class="glyphicon glyphicon-shopping-cart"></span>My Cart</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
+						<li><a href="#">My Cart<span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+						<li><a href="logout">Logout<span class="glyphicon glyphicon-log-out"></span></a></li>
 					</c:if>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<c:if test="${empty ErrorMessage}">
-						<li><a href="login"><span
-								class="glyphicon glyphicon-log-in"></span>Login</a></li>
+					<c:if test="${empty SuccessMessage}">
+						<li><a href="login">Login<span class="glyphicon glyphicon-log-in"></span></a></li>
+						<li><a href="registeration">Sign Up <span class="glyphicon glyphicon-user" ></span></a></li>
 					</c:if>
 				</ul>
 			</div>
