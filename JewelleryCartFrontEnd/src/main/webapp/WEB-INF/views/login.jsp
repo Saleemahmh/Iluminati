@@ -23,7 +23,6 @@ opacity: 0.9;
 margin-top:30px;
 }
 .form-group.last { margin-bottom:0px; }
-                                                                                                                                 }
 </style>
 <body>
 <jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>

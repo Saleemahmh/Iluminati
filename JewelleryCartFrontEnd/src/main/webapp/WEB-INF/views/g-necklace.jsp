@@ -98,7 +98,7 @@ p {
       					<p class="price">Rs.37598</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -122,7 +122,7 @@ p {
       					<p class="price">Rs.34374</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -146,7 +146,7 @@ p {
       					<p class="price">Rs.60012</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -170,7 +170,7 @@ p {
       					<p class="price">Rs.18899</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -200,7 +200,7 @@ p {
       					<p class="price">Rs.27548</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -224,7 +224,7 @@ p {
       					<p class="price">Rs.78256</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -248,7 +248,7 @@ p {
       					<p class="price">Rs.69159</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -272,7 +272,7 @@ p {
       					<p class="price">Rs.76003</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -302,7 +302,7 @@ p {
       					<p class="price">Rs.49017</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -326,7 +326,7 @@ p {
       					<p class="price">Rs.62235</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -350,7 +350,7 @@ p {
       					<p class="price">Rs.57074</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -374,7 +374,7 @@ p {
       					<p class="price">Rs.61549</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" >  VIEW</button>
       				</div>
       				
       			</div>
@@ -404,7 +404,7 @@ p {
       					<p class="price">Rs.35654</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -428,7 +428,7 @@ p {
       					<p class="price">Rs.36529</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -452,7 +452,7 @@ p {
       					<p class="price">Rs.34104</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -476,7 +476,7 @@ p {
       					<p class="price">Rs.41476</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>

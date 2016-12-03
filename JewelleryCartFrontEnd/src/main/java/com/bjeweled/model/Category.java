@@ -7,9 +7,9 @@ import javax.persistence.Table;
 
 import org.springframework.stereotype.Component;
 @Entity
-@Table
+/*@Table
 @Component
-public class Category {
+*/public class Category {
 	@Id
 	private String id;
 	@Column

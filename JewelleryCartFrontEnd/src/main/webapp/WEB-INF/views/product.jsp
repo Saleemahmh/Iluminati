@@ -64,7 +64,8 @@ label{
       </tr>
     </tbody>
   </table>
-<input type="button" name="add" value="Add"><input type="button" name="update" value="Update"><input type="button" name="delete" value="Delete"><br></b></i><br>
+<input type="submit" name="add" value="Add">    <input
+			type="submit" name="view" value="View">      <br></b></i><br>
 
 </div>
 

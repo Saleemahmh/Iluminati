@@ -63,6 +63,7 @@ body {
 </style>
 <body>
 	<jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
+	<form action="register" method="post">
 	<form class="form-signin">
 		<div class="container">
 			<div class="row">
@@ -193,6 +194,7 @@ body {
 				</div>
 			</div>
 		</div>
+	</form>
 	</form>
 	<script>
 		function checkPass() {

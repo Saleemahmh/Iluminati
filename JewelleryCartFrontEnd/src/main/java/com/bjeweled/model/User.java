@@ -3,29 +3,48 @@ package com.bjeweled.model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
-
-import org.springframework.stereotype.Component;
 
 @Entity
-@Table
-@Component
 public class User {
 	@Id
-	private String id;
+String Username;
 	@Column
-	private String name;
-	public String getId() {
-		return id;
-	}
-	public void setId(String id) {
-		this.id = id;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
+String Password;
+	@Column
+boolean enabled=true;
+	@Column
+String role="ROLE_USER";
+	
 
+public String getUsername() {
+	return Username;
+}
+
+public void setUsername(String username) {
+	Username = username;
+}
+
+public String getPassword() {
+	return Password;
+}
+
+public void setPassword(String password) {
+	Password = password;
+}
+
+public boolean isEnabled() {
+	return enabled;
+}
+
+public void setEnabled(boolean enabled) {
+	this.enabled = enabled;
+}
+
+public String getRole() {
+	return role;
+}
+
+public void setRole(String role) {
+	this.role = role;
+}
 }

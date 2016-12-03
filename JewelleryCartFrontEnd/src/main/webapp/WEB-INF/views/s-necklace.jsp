@@ -98,7 +98,7 @@ p {
       					<p class="price">Rs.2,408</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -115,14 +115,14 @@ p {
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star-empty"></span>
                 </div>
-      			<p>raash 925 Sterling Silver Ball Necklace Set For women </p>
+      			<p>Taraash 925 Sterling Silver Ball Necklace Set For women </p>
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
       					<p class="price">Rs.2724</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -146,7 +146,7 @@ p {
       					<p class="price">Rs.2163</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -170,7 +170,7 @@ p {
       					<p class="price">Rs.2428</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -193,14 +193,14 @@ p {
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star-empty"></span>
                 </div>
-      			<p>Traash 925 Sterling Silver Heart Neckchain for women. </p>
+      			<p>Taraash 925 Sterling Silver Heart Neckchain for women. </p>
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
       					<p class="price">Rs.1716</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -217,14 +217,14 @@ p {
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star-empty"></span>
                 </div>
-      			<p>Traash 925 Sterling Silver Heart Necklace Set For Women </p>
+      			<p>Taraash 925 Sterling Silver Heart Necklace Set For Women </p>
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
       					<p class="price">Rs.2892</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -248,7 +248,7 @@ p {
       					<p class="price">Rs.2100</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -272,7 +272,7 @@ p {
       					<p class="price">Rs.2410</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -302,7 +302,7 @@ p {
       					<p class="price">Rs.2389</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -326,7 +326,7 @@ p {
       					<p class="price">Rs.2214</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -350,7 +350,7 @@ p {
       					<p class="price">Rs.2520</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -367,14 +367,14 @@ p {
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star-empty"></span>
                 </div>
-      			<p>Traash Silver Ball 925 Sterling Silver Necklace Set For Women . </p>
+      			<p>Taraash Silver Ball 925 Sterling Silver Necklace Set For Women . </p>
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
       					<p class="price">Rs.2087</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -404,7 +404,7 @@ p {
       					<p class="price">Rs.2704</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -428,7 +428,7 @@ p {
       					<p class="price">Rs.2019</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -452,7 +452,7 @@ p {
       					<p class="price">Rs.1580</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -476,7 +476,7 @@ p {
       					<p class="price">Rs.1580</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>

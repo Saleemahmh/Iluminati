@@ -1,7 +1,7 @@
+
 package com.bjeweled.config;
 
 import java.util.Properties;
-
 import javax.sql.DataSource;
 
 import org.hibernate.SessionFactory;
@@ -10,12 +10,16 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
-import org.springframework.orm.hibernate4.HibernateTransactionManager;
-import org.springframework.orm.hibernate4.LocalSessionFactoryBuilder;
+import org.springframework.orm.hibernate5.HibernateTransactionManager;
+import org.springframework.orm.hibernate5.LocalSessionFactoryBuilder;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import com.bjeweled.model.Category;
+import com.bjeweled.model.Product;
+import com.bjeweled.model.RegisterDetails;
 import com.bjeweled.model.Supplier;
+import com.bjeweled.model.User;
+
 
 
 @Configuration
@@ -27,11 +31,8 @@ public class ApplicationContextConfig {
 	public DataSource getH2DataSource() {
 
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
-			
-		dataSource.setUrl("jdbc:h2:tcp://localhost/~/NIITDB");
-
-		dataSource.setDriverClassName("org.h2.Driver");
-
+		dataSource.setDriverClassName("org.h2.Driver");			
+		dataSource.setUrl("jdbc:h2:tcp://localhost/~/demo");
 		dataSource.setUsername("sa");
 		dataSource.setPassword("");
 		return dataSource;
@@ -40,8 +41,9 @@ public class ApplicationContextConfig {
 	
 	private Properties getHibernateProperties() {
 		Properties properties = new Properties();
-		
+		properties.put("hibernate.show_sql", "true");
 		properties.put("hibernate.dialect", "org.hibernate.dialect.H2Dialect");
+		properties.put("hibernate.hbm2ddl.auto", "update");
 		return properties;
 	}
 
@@ -52,7 +54,10 @@ public class ApplicationContextConfig {
 		LocalSessionFactoryBuilder sessionBuilder = new LocalSessionFactoryBuilder(dataSource);
 		sessionBuilder.addProperties(getHibernateProperties());
 		sessionBuilder.addAnnotatedClass(Category.class);
+		sessionBuilder.addAnnotatedClass(Product.class);
 		sessionBuilder.addAnnotatedClass(Supplier.class);
+		sessionBuilder.addAnnotatedClass(User.class);
+		sessionBuilder.addAnnotatedClass(RegisterDetails.class);
 			return sessionBuilder.buildSessionFactory();
 	}
 

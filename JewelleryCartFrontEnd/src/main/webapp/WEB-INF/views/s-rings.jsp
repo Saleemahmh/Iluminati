@@ -90,14 +90,14 @@ p {
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star-empty"></span>
                 </div>
-      			<p>Traash 925 sterling Silver CZ Floral Finger Ring for women</p>
+      			<p>Taraash 925 sterling Silver CZ Floral Finger Ring for women</p>
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
       					<p class="price">Rs.860</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -121,7 +121,7 @@ p {
       					<p class="price">Rs.860</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -145,7 +145,7 @@ p {
       					<p class="price">Rs.765</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -169,7 +169,7 @@ p {
       					<p class="price">Rs.428</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -199,7 +199,7 @@ p {
       					<p class="price">Rs.774</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -223,7 +223,7 @@ p {
       					<p class="price">Rs.774</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -240,14 +240,14 @@ p {
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star-empty"></span>
                 </div>
-      			<p>raash 925 sterling silver round shape design blue cz finger ring for women.</p>
+      			<p>Taraash 925 sterling silver round shape design blue cz finger ring for women.</p>
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
       					<p class="price">Rs.774</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -271,7 +271,7 @@ p {
       					<p class="price">Rs.774</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -301,7 +301,7 @@ p {
       					<p class="price">Rs.774</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -318,14 +318,14 @@ p {
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star-empty"></span>
                 </div>
-      			<p>Taaash 925 Sterling Silver Round shape cz finger ring for girls CBFRBX_02LI-18  </p>
+      			<p>Taraash 925 Sterling Silver Round shape cz finger ring for girls CBFRBX_02LI-18  </p>
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
       					<p class="price">Rs.774</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -349,7 +349,7 @@ p {
       					<p class="price">Rs.1828</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -366,14 +366,14 @@ p {
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star-empty"></span>
                 </div>
-      			<p>Traash 925 Sterling Silver 'X' Band Style Cz Finger Ring For Women . </p>
+      			<p>Taraash 925 Sterling Silver 'X' Band Style Cz Finger Ring For Women . </p>
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
       					<p class="price">Rs.1013</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -396,14 +396,14 @@ p {
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star-empty"></span>
                 </div>
-      			<p>Taaash 925 Sterling Silver Adjustable CZ Promise Ring For Couples. </p>
+      			<p>Taraash 925 Sterling Silver Adjustable CZ Promise Ring For Couples. </p>
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
       					<p class="price">Rs.1828</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -420,14 +420,14 @@ p {
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star-empty"></span>
                 </div>
-      			<p>Traash 925 Sterling Silver Peacock Style Finger Ring For women    </p>
+      			<p>Taraash 925 Sterling Silver Peacock Style Finger Ring For women    </p>
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
       					<p class="price">Rs.1628</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -451,7 +451,7 @@ p {
       					<p class="price">Rs.1628</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>
@@ -468,14 +468,14 @@ p {
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star-empty"></span>
                 </div>
-      			<p>raash Stunning Cz 925 Sterling Silver Finger Ring For Women FR1434R6</p>
+      			<p>Taraash Stunning Cz 925 Sterling Silver Finger Ring For Women FR1434R6</p>
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
       					<p class="price">Rs.936</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > BUY ITEM</button>
+      					<button class="btn btn-success right" > VIEW</button>
       				</div>
       				
       			</div>

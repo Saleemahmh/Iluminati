@@ -6,9 +6,9 @@ import javax.persistence.Table;
 
 import org.springframework.stereotype.Component;
 @Entity
-@Table
+/*@Table
 @Component
-public class Product {
+*/public class Product {
 	@Id
 	private String id;
 	@Column
