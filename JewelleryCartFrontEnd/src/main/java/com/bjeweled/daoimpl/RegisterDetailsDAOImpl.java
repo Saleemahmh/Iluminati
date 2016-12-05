@@ -11,11 +11,10 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.bjeweled.dao.RegisterDAO;
-import com.bjeweled.model.*;
+import com.bjeweled.model.RegisterDetails;
+import com.bjeweled.model.User;
 
-@Transactional
-@Repository("registerDAO")
-
+@Repository
 public  class RegisterDetailsDAOImpl implements RegisterDAO{
 @Autowired
 SessionFactory sessionFactory;
@@ -23,8 +22,8 @@ public RegisterDetailsDAOImpl(SessionFactory sessionFactory)
 {
  this.sessionFactory=sessionFactory;
 }
-
-
+@Transactional
+@Autowired
 public void adduser(RegisterDetails reg) {
 	System.out.println("Registering DAO ");
 	System.out.println(reg.getUsername());
@@ -49,7 +48,7 @@ public void adduser(RegisterDetails reg) {
 	}
 	
 }
-
+@Transactional
 public RegisterDetails getinfo(String u) {
 	Session session=sessionFactory.openSession();
 	Transaction tx=(Transaction) session.getTransaction();

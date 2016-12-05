@@ -3,9 +3,14 @@ package com.bjeweled.model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import javax.persistence.Transient;
 
+import org.springframework.stereotype.Component;
+
 @Entity
+@Table(name="REGISTERDETAILS")
+@Component
 public class RegisterDetails {
 	@Id
 	public String firstName;

@@ -67,7 +67,15 @@ public class HomeController {
 		model.addAttribute("userClickedcategory", "true");
 		return "admin";
 	}
-
+	@RequestMapping("/registeration")
+	public String registeration(Model model)
+	{
+	
+		//Boolean userClickedLogin=true
+		model.addAttribute("userClickedRegister", "true");
+			return "register";
+		
+	}
 	// @RequestMapping("/login")
 	// public ModelAndView login(Model model)
 	// {

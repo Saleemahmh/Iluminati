@@ -35,10 +35,7 @@
 <body>
 	<div class="container">
 		<div class="panel panel-default">
-			<div class="panel-body"><span
-							class="glyphicon glyphicon-heart"></span>
-							BJEWELED<span
-							class="glyphicon glyphicon-heart"></span>
+			<div class="panel-body"><img src="https://www.freelogoservices.com/api/main/images/1j+ojl1FOMkX9WypfBe43D6kjPaFqRFJkBbJwXs1M3EMoAJtlCgtj...Bs...fk6">
 				
 				<ul class="nav navbar-nav navbar-right">
 					<c:if test="${not empty SuccessMessage}">
