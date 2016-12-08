@@ -8,14 +8,14 @@ public interface ProductDAO {
 
 	// CRUD Operations
 
-	public boolean save(Product product);
-
-	public boolean update(Product product);
-
-	public Product get(String id);
-
-	public boolean delete(Product product);
-
-	public List<Product> list();
+	public void addProduct(Product p);
+	
+	public void updateProduct(Product p);
+	
+	public List<Product> listProduct();
+	
+	public Product getProductById(int id);
+	
+	public void removeProduct(int id);
 
 }

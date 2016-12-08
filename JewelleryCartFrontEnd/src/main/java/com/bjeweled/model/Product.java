@@ -3,24 +3,37 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 import org.springframework.stereotype.Component;
+import org.springframework.web.multipart.MultipartFile;
 @Entity
 /*@Table
 @Component
 */public class Product {
 	@Id
-	private String id;
+	private int id;
 	@Column
 	private String name;
 	@Column
 	private double price;
 	@Column
 	private String description;
-	public String getId() {
+	
+	@Transient
+	public MultipartFile image;
+	
+	
+	public int getId() {
 		return id;
 	}
-	public void setId(String id) {
+	public MultipartFile getImage() {
+		return image;
+	}
+	public void setImage(MultipartFile image) {
+		this.image = image;
+	}
+	public void setId(int id) {
 		this.id = id;
 	}
 	public String getName() {

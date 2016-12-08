@@ -56,11 +56,11 @@ public class HomeController {
 		return "admin";
 	}
 
-	@RequestMapping("/product")
+	/*@RequestMapping("/product")
 	public String product(Model model) {
 		model.addAttribute("userClickedproduct", "true");
 		return "admin";
-	}
+	}*/
 
 	@RequestMapping("/category")
 	public String category(Model model) {

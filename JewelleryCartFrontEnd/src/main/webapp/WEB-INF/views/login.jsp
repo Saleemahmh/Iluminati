@@ -10,7 +10,7 @@
 </head>
 <style>
 body{
-background:url("https://i.ytimg.com/vi/97rBdquKzy8/maxresdefault.jpg")no-repeat center center fixed; 
+background:url("https://static.videezy.com/system/resources/thumbnails/000/005/027/original/diamond-ring-4k-wedding-background.jpg")no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

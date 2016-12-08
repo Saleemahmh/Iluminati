@@ -28,14 +28,14 @@
 	/*border: transparent !important;*/
 	font-family: 'Didot-Italic';
 	font-style: italic;
-	color: #B22222;
+	color: blue;
 	font-size: 18px;
 }
 </style>
 <body>
 	<div class="container">
 		<div class="panel panel-default">
-			<div class="panel-body"><img src="https://www.freelogoservices.com/api/main/images/1j+ojl1FOMkX9WypfBe43D6kjPaFqRFJkBbJwXs1M3EMoAJtlCgtj...Bs...fk6">
+			<div class="panel-body"><img src="https://www.freelogoservices.com/api/main/images/1j+ojl1FOMkX9WypfBe43D6kjPaFqRFJnBjEwXs1M3EMoAJtlCgtj...dp9f86">
 				
 				<ul class="nav navbar-nav navbar-right">
 					<c:if test="${not empty SuccessMessage}">

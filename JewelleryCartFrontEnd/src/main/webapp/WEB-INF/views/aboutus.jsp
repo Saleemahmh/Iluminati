@@ -27,7 +27,7 @@ div.img img {
 	<jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
 	<div class="img">
 		<img
-			src="http://www.filmibeat.com/fanimg/jyothika-photos-images-51912.jpg">
+			src="http://www.newhdwallpaper.in/wp-content/uploads/2015/10/Indian-bridal-jewellery-beautiful-wallpapers.jpg">
 	</div>
 	<div class="desc">
 		<h2>ABOUT US</h2>

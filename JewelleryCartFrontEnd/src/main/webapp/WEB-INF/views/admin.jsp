@@ -55,8 +55,7 @@ body {
 	<div class="container">
 		<div class="panel panel-default">
 			<div class="panel-body">
-				<span class="glyphicon glyphicon-heart"></span> BJEWELED<span
-					class="glyphicon glyphicon-heart"></span>
+				<img src="https://www.freelogoservices.com/api/main/images/1j+ojl1FOMkX9WypfBe43D6kjPaFqRFJnBjEwXs1M3EMoAJtlCgtj...dp9f86">
 				<nav class="navbar navbar-default">
 				<div class="container-fluid">
 					<div class="navbar-header">
