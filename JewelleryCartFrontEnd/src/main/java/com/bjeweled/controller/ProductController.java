@@ -1,4 +1,4 @@
-/*package com.bjeweled.controller;
+package com.bjeweled.controller;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -19,17 +19,18 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.bjeweled.dao.ProductDAO;
 import com.bjeweled.model.Product;
 
-@Controller
+
+// @Controller
 public class ProductController {
 
-	@Autowired
+	@Autowired(required=true)
 	ProductDAO productDAO;
 	
 	@RequestMapping(value="/addproduct",method=RequestMethod.GET)
 	public String listPersons(Model model)
 	{
 		model.addAttribute("product",new Product());
-		System.out.println("inside controller");
+		System.out.println("inside productcontroller");
 		
 		model.addAttribute("listProduct",productDAO.listProduct());
 		return "addproduct";
@@ -61,7 +62,6 @@ public class ProductController {
 				System.out.println(ex.getMessage());
 			}
 		}
-		
 		if(result.hasErrors())
 		{
 			return "addproduct";
@@ -78,21 +78,19 @@ public class ProductController {
 		
 	}
 
-		@RequestMapping("/remove/{id}")
+		@RequestMapping("/removeid/{id}")
 		public String removeProduct(@PathVariable("id") int id)
 		{
 			productDAO.removeProduct(id);
-			return "redirect:addproduct";
+			return "redirect:/addproduct";
 		}
 		
-		@RequestMapping("/edit/{id}")
+		@RequestMapping("/editid/{id}")
 		public String editProduct(@PathVariable("id") int id, Model model)
 		{
 			model.addAttribute("product", productDAO.getProductById(id));
-	        model.addAttribute("listPersons", productDAO.listProduct());
+	        model.addAttribute("listProduct", productDAO.listProduct());
 	        return "addproduct";
 		}
-	}
 
-
-*/
+}

@@ -22,14 +22,14 @@ public class ApplicationContextConfig {
 	{
 		BasicDataSource dataSource=new BasicDataSource();
 		dataSource.setDriverClassName("org.h2.Driver");
-		dataSource.setUrl("jdbc:h2:tcp://localhost/~/demo");
+		dataSource.setUrl("jdbc:h2:tcp://localhost/~/demo2");
 		dataSource.setUsername("sa");
 		dataSource.setPassword("");
 		
 		return dataSource;
 	}
 	
-	@Autowired
+	@Autowired(required=true)
 	@Bean
 	public LocalSessionFactoryBean getSessionFactory(DataSource dataSource)
 	{
@@ -55,7 +55,7 @@ public class ApplicationContextConfig {
 		
 	}
 	
-	@Autowired
+	@Autowired(required=true)
 	@Bean
 	public HibernateTransactionManager getTransactionManager(SessionFactory sessionFactory)
 	{

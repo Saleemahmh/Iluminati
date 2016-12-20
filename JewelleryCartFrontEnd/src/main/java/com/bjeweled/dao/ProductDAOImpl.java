@@ -11,29 +11,27 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.bjeweled.model.Product;
 
-
-
 @Repository("productDAO")
 
 @Transactional
 @EnableTransactionManagement
 
-public class ProductDAOImpl implements ProductDAO{
-
+public class ProductDAOImpl implements ProductDAO {
 	
-	@Autowired
+	@Autowired(required=true)
 	SessionFactory sessionFactory;
-	
+
 	public void addProduct(Product p) {
+		// TODO Auto-generated method stub
 		Session session=sessionFactory.getCurrentSession();
 		session.persist(p);
 		
 	}
 
 	public void updateProduct(Product p) {
+		// TODO Auto-generated method stub
 		Session session=sessionFactory.getCurrentSession();
 		session.update(p);
-		
 	}
 
 	public List<Product> listProduct() {
@@ -52,6 +50,7 @@ public class ProductDAOImpl implements ProductDAO{
 		Session session=sessionFactory.getCurrentSession();
 		Product product=(Product)session.createQuery("from Product where id="+id).getSingleResult();
 		session.delete(product);
+		
 	}
 
 }

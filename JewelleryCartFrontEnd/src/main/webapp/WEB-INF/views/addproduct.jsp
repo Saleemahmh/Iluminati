@@ -117,14 +117,14 @@
 		<th width="60">Edit</th>
 		<th width="60">Delete</th>
 	</tr>
-	<c:forEach items="${listProduct}" var="person">
+	<c:forEach items="${listProduct}" var="product">
 		<tr>
 			<td>${product.id}</td>
 			<td>${product.name}</td>
 			<td>${product.price}</td>
 			<td>${product.description}</td>
-			<td><a href="<c:url value='/edit/${product.id}' />" >Edit</a></td>
-			<td><a href="<c:url value='/remove/${product.id}' />" >Delete</a></td>
+			<td><a href="<c:url value='/editid/${product.id}' />" >Edit</a></td>
+			<td><a href="<c:url value='/removeid/${product.id}' />" >Delete</a></td>
 		</tr>
 	</c:forEach>
 	</table>

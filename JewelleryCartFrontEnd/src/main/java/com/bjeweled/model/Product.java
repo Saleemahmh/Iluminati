@@ -1,23 +1,32 @@
 package com.bjeweled.model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Transient;
+import javax.validation.constraints.Size;
 
-import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
+
 @Entity
-/*@Table
-@Component
-*/public class Product {
+@Table(name="PRODUCT")
+public class Product {
+
 	@Id
+	@GeneratedValue
 	private int id;
+	
 	@Column
+	@Size(min=2,max=10,message="Name has to be between 2 to 10 characters")
 	private String name;
+	
 	@Column
 	private double price;
+	
 	@Column
+	@Size(min=2,max=10,message="Name has to be between 2 to 10 characters")
 	private String description;
 	
 	@Transient
@@ -56,4 +65,5 @@ import org.springframework.web.multipart.MultipartFile;
 	}
 	
 
+	
 }
