@@ -164,7 +164,7 @@ body {
 				<!--/row -->
 
 				<br> <br>
-				<!--/row -->
+				<!--/row --><!-- 
 				<div class="container">
 					<h3>Diamond Jewellery</h3>
 					<div class="row">
@@ -181,7 +181,7 @@ body {
 							</div>
 						</div>
 
-						<!-- TH2 -->
+						TH2
 						<div class="col-sm-4">
 							<div class="thumbnail">
 								<a href="d-rings" class="">
@@ -196,7 +196,7 @@ body {
 							</div>
 						</div>
 
-						<!-- TH2 -->
+						TH2
 						<div class="col-sm-4">
 							<div class="thumbnail">
 								<a href="d-earring" class="">
@@ -210,7 +210,7 @@ body {
 								</a>
 							</div>
 						</div>
-
+ -->
 
 
 
